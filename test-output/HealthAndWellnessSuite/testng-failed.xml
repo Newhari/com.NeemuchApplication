@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HealthAndWellnessSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LabModuleTests(failed)">
+    <classes>
+      <class name="com.NeemuchApplication.com.NeemuchApplication.NeemucLab">
+        <methods>
+          <include name="labBillingScreen"/>
+          <include name="labSampleCollection"/>
+          <include name="labResultEntryScreen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="launchLabModule"/>
+        </methods>
+      </class> <!-- com.NeemuchApplication.com.NeemuchApplication.NeemucLab -->
+    </classes>
+  </test> <!-- LabModuleTests(failed) -->
+</suite> <!-- Failed suite [HealthAndWellnessSuite] -->
